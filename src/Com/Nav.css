@@ -1,0 +1,147 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+/* Top Header Section */
+.top-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f6f7f8;
+}
+
+.top-header .icon {
+    color: #ababab;
+    font-size: 20px;
+}
+
+.top-header .info {
+    margin-left: 10px;
+    color: #8a8a8a;
+}
+
+/* Middle Header Section */
+.mid-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.logo img {
+    height: 45px;
+    width: 183px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background: #f6f7f8;
+}
+
+.search-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #cd1e76;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.5s;
+}
+
+.search-box button:hover {
+    background-color: #fed700;
+    color: #cd1e76;
+}
+
+/* User Authentication Section */
+.user-auth .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-auth .icon {
+    font-size: 18px;
+}
+
+.user-auth button {
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Bottom Header Section */
+.bottom-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #232323;
+    color: white;
+}
+
+/* User Profile */
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-profile .info h2 {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.user-profile .info p {
+    font-size: 14px;
+    color: #ababab;
+}
+
+/* Navigation Links */
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links .link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.5s;
+}
+
+.nav-links .link:hover {
+    color: #fed700;
+}
+
+/* Offer Section */
+.offer {
+    padding: 10px 20px;
+    background-color: #cd1e76;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
