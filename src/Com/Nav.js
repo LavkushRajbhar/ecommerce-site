@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 import './Nav.css';
 
-const Nav = () => {
+const Nav = ({search,setSearch,searchProduct}) => {
     const { loginWithRedirect, logout, user, isAuthenticated, isLoading } = useAuth0();
     if (isLoading) {
         return <div>Loading ...</div>;
@@ -30,8 +30,8 @@ const Nav = () => {
                     <img src="image/logo.webp" alt="logo" />
                 </div>
                 <div className="search-box">
-                    <input type="text" placeholder="Search" />
-                    <button><AiOutlineSearch /></button>
+                    <input type="text" placeholder="Search" value={search} onChange={(e) => setSearch(e.target.value)} />
+                    <button onClick={searchProduct}><AiOutlineSearch /></button>
                 </div>
 
                 <div className="user-auth">
@@ -69,7 +69,7 @@ const Nav = () => {
                     <ul>
                         <li><Link to="/" className="link">Home</Link></li>
                         <li><Link to="/shop" className="link">Shop</Link></li>
-                        <li><Link to="/collection" className="link">Collection</Link></li>
+                        <li><Link to="/cart" className="link">Cart</Link></li>
                         <li><Link to="/about" className="link">About</Link></li>
                         <li><Link to="/contact" className="link">Contact</Link></li>
                     </ul>
