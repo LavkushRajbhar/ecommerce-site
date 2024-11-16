@@ -5,7 +5,8 @@ const Homeproduct = [
         price: '26',
         image: 'image/p1.webp',
         cat: 'tv',
-        type: 'new'
+        type: 'new',
+        description: 'A sleek and modern TV that delivers high-definition picture quality.'
     },
     {
         id: 2,
@@ -13,7 +14,8 @@ const Homeproduct = [
         price: '40',
         image: 'image/p2.webp',
         cat: 'laptop',
-        type: 'bestseller'
+        type: 'bestseller',
+        description: 'A lightweight laptop with powerful performance and long battery life.'
     },
     {
         id: 3,
@@ -21,7 +23,8 @@ const Homeproduct = [
         price: '15',
         image: 'image/p3.webp',
         cat: 'watch',
-        type: 'new'
+        type: 'new',
+        description: 'A stylish and durable wristwatch with advanced features.'
     },
     {
         id: 4,
@@ -29,7 +32,8 @@ const Homeproduct = [
         price: '30',
         image: 'image/p4.webp',
         cat: 'laptop',
-        type: 'featured'
+        type: 'featured',
+        description: 'An affordable laptop with excellent performance and storage capacity.'
     },
     {
         id: 5,
@@ -37,7 +41,8 @@ const Homeproduct = [
         price: '60',
         image: 'image/p5.webp',
         cat: 'speaker',
-        type: 'new'
+        type: 'new',
+        description: 'A high-quality speaker delivering crystal-clear sound and deep bass.'
     },
     {
         id: 6,
@@ -45,7 +50,8 @@ const Homeproduct = [
         price: '22',
         image: 'image/p6.webp',
         cat: 'office',
-        type: 'electronics'
+        type: 'electronics',
+        description: 'An essential office device designed for productivity and ease of use.'
     },
     {
         id: 7,
@@ -53,7 +59,8 @@ const Homeproduct = [
         price: '50',
         image: 'image/p7.webp',
         cat: 'headphone',
-        type: 'featured'
+        type: 'featured',
+        description: 'Comfortable and noise-canceling headphones for an immersive audio experience.'
     },
     {
         id: 8,
@@ -61,7 +68,8 @@ const Homeproduct = [
         price: '35',
         image: 'image/p8.webp',
         cat: 'electronics',
-        type: 'new'
+        type: 'new',
+        description: 'A compact electronic device that meets your everyday needs efficiently.'
     },
     {
         id: 9,
@@ -69,7 +77,8 @@ const Homeproduct = [
         price: '80',
         image: 'image/p1.webp',
         cat: 'phone',
-        type: 'bestseller'
+        type: 'bestseller',
+        description: 'A top-selling smartphone with cutting-edge technology and features.'
     },
     {
         id: 10,
@@ -77,7 +86,8 @@ const Homeproduct = [
         price: '45',
         image: 'image/p3.webp',
         cat: 'fashion',
-        type: 'new'
+        type: 'new',
+        description: 'A trendy fashion accessory to complement your style.'
     },
     {
         id: 11,
@@ -85,7 +95,8 @@ const Homeproduct = [
         price: '45',
         image: 'image/p2.webp',
         cat: 'fashion',
-        type: 'new'
+        type: 'new',
+        description: 'A must-have fashion item that combines elegance and comfort.'
     },
     {
         id: 12,
@@ -93,7 +104,8 @@ const Homeproduct = [
         price: '45',
         image: 'image/p5.webp',
         cat: 'fashion',
-        type: 'new'
+        type: 'new',
+        description: 'A versatile fashion piece perfect for any occasion.'
     }
 ];
 
