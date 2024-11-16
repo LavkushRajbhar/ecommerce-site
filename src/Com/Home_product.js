@@ -50,7 +50,7 @@ const Homeproduct = [
         price: '22',
         image: 'image/p6.webp',
         cat: 'office',
-        type: 'electronics',
+        type: 'bestseller',
         description: 'An essential office device designed for productivity and ease of use.'
     },
     {
@@ -68,7 +68,7 @@ const Homeproduct = [
         price: '35',
         image: 'image/p8.webp',
         cat: 'electronics',
-        type: 'new',
+        type: 'bestseller',
         description: 'A compact electronic device that meets your everyday needs efficiently.'
     },
     {
@@ -95,7 +95,7 @@ const Homeproduct = [
         price: '45',
         image: 'image/p2.webp',
         cat: 'fashion',
-        type: 'new',
+        type: 'featured',
         description: 'A must-have fashion item that combines elegance and comfort.'
     },
     {
@@ -104,7 +104,7 @@ const Homeproduct = [
         price: '45',
         image: 'image/p5.webp',
         cat: 'fashion',
-        type: 'new',
+        type: 'featured',
         description: 'A versatile fashion piece perfect for any occasion.'
     }
 ];
